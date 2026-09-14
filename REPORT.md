@@ -37,7 +37,7 @@ Lớp (class) xác định bản chất vật thể là gì (ví dụ: car, truc
 | Gán nhầm xe SUV thành Van | lớp | Xem lại phiếu quy tắc | Đổi thành Car (quy tắc: SUV thuộc lớp car) |
 
 - Số hộp `needs_review` trước và sau khi kiểm: Trước: 3, Sau: 0
-- Một quyết định chưa đủ bằng chứng và cách bạn xin hỗ trợ: Vật thể ở quá xa, hình dáng mờ không rõ là xe gì. Tôi đánh dấu `needs_review` và hỏi ý kiến Lab Coach.
+- Một quyết định chưa đủ bằng chứng và cách bạn xin hỗ trợ: Vật thể ở quá xa, hình dáng mờ không rõ là xe gì. Em đánh dấu `needs_review` và hỏi ý kiến Lab Coach.
 
 ## 4. Một dòng nhãn YOLO
 
@@ -65,7 +65,7 @@ Vì 4 ảnh quá ít để đại diện cho sự đa dạng về điều kiện
 - Mức đồng thuận lớp: 72.92%
 - Số hộp phía bạn không ghép được: 34
 - Số hộp phía đối chiếu không ghép được: 2
-- Một điểm khác biệt cụ thể: Tôi bỏ qua một chiếc xe ở rất xa, nhưng trong bộ tham chiếu chiếc xe đó được gán nhãn `car`.
+- Một điểm khác biệt cụ thể: Em bỏ qua một chiếc xe ở rất xa, nhưng trong bộ tham chiếu chiếc xe đó được gán nhãn `car`.
 - Quy tắc hoặc hành động sửa phát sinh: Cần làm rõ quy tắc về ngưỡng kích thước tối thiểu (đơn vị pixel) để gán nhãn xe ở xa.
 - Vì sao mức đồng thuận cao không chứng minh mọi nhãn đều đúng?
 
